@@ -1,0 +1,26 @@
+// global
+const MENUS = 'MENUS';
+// user module
+const ADD_USER = 'ADD_USER';
+const DELETE_USER = 'DELETE_USER';
+const EDIT_USER = 'EDIT_USER';
+const ONE_USER = 'ONE_USER';
+const ALL_USERS = 'ALL_USERS';
+
+const GET_PLANS = 'GET_PLANS';
+const GET_YUQING = 'GET_YUQING';
+const GET_PAGE = 'GET_PAGE';
+const GET_DIMENSIONS = 'GET_DIMENSIONS';
+
+export {
+  MENUS,
+  ADD_USER,
+  DELETE_USER,
+  EDIT_USER,
+  ONE_USER,
+  ALL_USERS,
+  GET_PLANS,
+  GET_YUQING,
+  GET_PAGE,
+  GET_DIMENSIONS
+};

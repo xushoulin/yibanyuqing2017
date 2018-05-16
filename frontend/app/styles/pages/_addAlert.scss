@@ -1,0 +1,46 @@
+.page{
+  &.addAlert{
+    .form-title{
+      text-align: right;
+      vertical-align: middle;
+      float: left;
+      font-size: 12px;
+      color: #495060;
+      line-height: 1;
+      padding: 10px 12px 10px 0;
+      box-sizing: border-box;
+    }
+    #inputBox{
+      margin-left: -30px;
+    }
+    .s-title{
+      margin-top: 20px;
+      color: #2a333b;
+      font-size: 16px;
+      line-height: 40px;
+    }
+    .s-switch{
+      margin-top: 20px;
+    }
+    .receive-member{
+      border:1px solid $borderColor;
+      padding:30px 25px;
+      width: 850px;
+      display: inline-block;
+    }
+    .pr{
+      position: relative;
+    }
+    .pa{
+      position: absolute;
+    }
+    .pa.addicon{
+      top: 10px;
+      left: 357px;
+    }
+    .btnBox{
+      text-align: center;
+      margin-top:20px; 
+    }
+  }
+}
